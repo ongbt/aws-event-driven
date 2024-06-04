@@ -36,3 +36,11 @@
 - https://www.youtube.com/watch?v=O2j8k7j9mLM&ab_channel=ListenToLearn
 - https://github.com/jupitercl/aws-localstack-terraform-sns-sqs-lambda
 - https://hashnode.localstack.cloud/testing-s3-notifications-locally-with-localstack-terraform
+
+
+## Issues and resolutions
+- Make terraform detect lambda code changes to re-apply to target:
+  - https://stackoverflow.com/questions/48577727/how-to-trigger-terraform-to-upload-new-lambda-code
+- Localstack Lambda deploy issue 
+  - Turn on debug logging to determine cause
+  - If cause is connection issue due to certificates, make sure VPN is turned off or certificates are installed correctly.
